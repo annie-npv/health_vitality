@@ -38,7 +38,7 @@ ui <- fluidPage(
   theme = bs_theme(version = 4, bootswatch = "minty"),
   
   # Rshiny
-  navbarPage("Health app",
+  navbarPage("Health Vitality App",
              tabPanel("How likely will you have stroke?",
                       sidebarLayout(
                         sidebarPanel(
