@@ -23,9 +23,6 @@ my_pal <- define_palette(
 ggthemr(my_pal)
 
 
-# Set working directory
-setwd("/Users/annienguyen/STA404/Final/Final-grad")
-
 # Download stroke data from 
 # https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
 stroke <- read.csv("healthcare-dataset-stroke-data.csv")
